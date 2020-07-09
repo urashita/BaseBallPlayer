@@ -24,7 +24,7 @@ public class Find {
         List<MPlayer> list = session.createQuery(criteriaQuery).getResultList();
 
         for (int i = 0; i < list.size(); i++) {
-//          レコードとなるSoccerオブジェクトを取得
+//          レコードとなるMPlayerオブジェクトを取得
             MPlayer player = (MPlayer) list.get(i);
 
 //          idとname列のデータを表示
