@@ -1,0 +1,2 @@
+# BaseBallPlayer
+JavaのHibernate OR Mapperのサンプルプログラムです。
